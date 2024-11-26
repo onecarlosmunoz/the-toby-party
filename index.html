@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is... The Toby Party">
+    <meta name="keywords" content="Toby Party, interactive, music, fun">
+    <meta name="author" content="Juan Carlos Munoz">
+    <meta property="og:title" content="Toby Party">
+    <meta property="og:description" content="This is... The Toby Party">
+    <meta property="og:image" content="/media/toby-headshot-1.png">
+    <meta property="og:url" content="http://tobydoggy.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Toby Party</title>
+</head>
+<body>
+    <audio id="audio" src="./media/we-no-speak-americano.mp3"></audio>
+    <audio id="audio-loop" src="./media/we-no-speak-americano-loop.mp3"></audio>
+    <div class="container">   
+        <div id="background" class="background"></div>
+        <button id="button" onclick="party()">Click to start party</button>    
+        <a id="link-to-codepen" href="https://codepen.io/kathykato/pen/gOOjgmP">Button by Katherine Kato</a>
+        <img id="guitar-scene" class="initial-guitarist absolute hidden" src="./media/toby-guitar.png" alt="" srcset="">
+        <img id="trumpet-scene" class="trumpetist absolute hidden" src="./media/toby-trumpet.png" alt="" srcset="">
+        <img id="drunk-scene" class="drunk absolute hidden" src="./media/toby-drunk.png" alt="" srcset="">
+        <img id="concerned-scene" class="concerned absolute hidden" src="./media/toby-concerned.png" alt="" srcset="">
+        <img id="drunk-but-playing-scene" class="drunk-but-playing absolute hidden" src="./media/toby-drunk-but-playing.png" alt="" srcset="">
+        <img id="trumpet-aggressive-scene" class="trumpetist-aggressive absolute hidden" src="./media/toby-trumpet.png" alt="" srcset="">
+        <img id="papa-americano-scene" onclick="changeTobyHeadshot()" class="papa-americano absolute hidden" src="./media/toby-headshot-1.png" alt="" srcset="">
+        <div id="toby-text" class="toby-text absolute">Tap to boop Toby</div>
+
+        <!-- FOR LOADING PURPOSES ONLY -->
+        <!-- Loads all Toby headshots for boop-readiness -->
+        <img class="absolute hidden" src="./media/toby-headshot-1.png" alt="" srcset="">
+        <img class="absolute hidden" src="./media/toby-headshot-2.png" alt="" srcset="">
+        <img class="absolute hidden" src="./media/toby-headshot-3.png" alt="" srcset="">
+        <img class="absolute hidden" src="./media/toby-headshot-4.png" alt="" srcset="">
+        <img class="absolute hidden" src="./media/toby-headshot-5.png" alt="" srcset="">
+    </div>
+    <script src="./script/main.js"></script>
+</body>
+</html>
