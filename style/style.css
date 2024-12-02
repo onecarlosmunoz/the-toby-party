@@ -97,7 +97,7 @@ button:active::before {
 }  
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #d6c424;
     font-size: 14px;
     position: absolute;
@@ -207,7 +207,25 @@ a {
     opacity: 0;
     margin-top: -280px;
     font-size:24px;
-    color:rgba(173, 173, 173, 0.781);
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+}
+
+#icon-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.icon {
+    width: 36px;
+    height: 40px;
 }
 
 @keyframes papaAmericano {
