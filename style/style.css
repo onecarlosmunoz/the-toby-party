@@ -218,8 +218,8 @@ a {
 
 #icon-link {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 0;
     margin: 20px;
 }
 
